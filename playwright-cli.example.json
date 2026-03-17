@@ -1,0 +1,18 @@
+{
+  "browser": {
+    "launchOptions": {
+      "headless": false,
+      "channel": "chrome",
+      "args": [
+        "--disable-extensions-except=/absolute/path/to/trend-radar",
+        "--load-extension=/absolute/path/to/trend-radar"
+      ]
+    },
+    "contextOptions": {
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      }
+    }
+  }
+}

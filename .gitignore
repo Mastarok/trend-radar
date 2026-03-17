@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+*.zip
+playwright-cli.json
+.playwright-cli/
+_metadata/
